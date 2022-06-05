@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+.csal {
+    padding:0;
+    list-style: none;
+}
+.csal li{
+    padding:0px;
+line-height:0.85
+}
+.csal li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #006400;
+    content: "\2023";
+}
+/*.csal li:hover:before {
+    color: #337AB7;
+    content: "\2605";
+}*/
+.otp {
+    padding:0;
+    list-style: none;
+}
+.otp li{
+    padding:0px;
+    line-height:0.85
+}
+.otp li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #C0C000;
+    content: "\2714";
+}
+.zsh {
+    padding:0;
+    list-style: none;
+}
+.zsh li{
+    padding:0px;
+    line-height:0.85
+}
+.zsh li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #1010FF;
+    content: "\2699";
+}
+.chead h1 {
+    margin: 1em 0 0.5em 0;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 -1px rgba(0,0,0,0.6);
+    font-size: 14px;
+    line-height: 20px;
+    background: #355681;
+    background: rgba(53,86,129, 0.8);
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+    font-family: 'Muli', sans-serif;
+}
+.imgshadow {
+    margin: 10px 10px 10px 0;
+    box-shadow: 0px 0px 5px 5px #AABBCC;
+    border-radius: 4px;
+}
